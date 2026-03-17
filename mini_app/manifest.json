@@ -1,0 +1,10 @@
+{
+  "name": "BarberShopUZ Mini App",
+  "short_name": "BarberShopUZ",
+  "description": "BarberShopUZ uchun Telegram Mini App bron tizimi",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#081114",
+  "theme_color": "#081114",
+  "orientation": "portrait"
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Beauty Studio Mini App</title>
+  <meta name="theme-color" content="#081114">
+  <meta name="mini-app-api-base" content="">
+  <link rel="manifest" href="./manifest.json">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Telegram Mini App</p>
+        <h1>Beauty Studio</h1>
+      </div>
+      <button id="backToBotTop" class="ghost-button" type="button">Botga qaytish</button>
+    </header>
+
+    <main id="app" class="app-root">
+      <section class="loading-card">
+        <div class="spinner"></div>
+        <p>Mini App yuklanmoqda...</p>
+      </section>
+    </main>
+  </div>
+
+  <div id="toast" class="toast" aria-live="polite"></div>
+
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <script src="./script.js"></script>
+</body>
+</html>
